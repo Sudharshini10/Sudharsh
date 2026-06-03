@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Directory Demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="card shadow p-4">
+            <h1 class="text-primary">
+                <i class="bi bi-bootstrap-fill"></i>
+                Bootstrap Demo
+            </h1>
+
+            <p class="lead">
+                This page uses Bootstrap CSS, JavaScript, and Icons from downloaded files.
+            </p>
+
+            <!-- Button to open modal -->
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#demoModal">
+                <i class="bi bi-info-circle"></i> Show Message
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal Component -->
+    <div class="modal fade" id="demoModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Bootstrap Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    Bootstrap JavaScript is working successfully!
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
